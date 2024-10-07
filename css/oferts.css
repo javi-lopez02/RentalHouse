@@ -1,0 +1,95 @@
+.main-banner .item {
+  display: flex;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10% 5%;
+  margin-top: 0px;
+}
+
+.main-banner .item-1 {
+  background-image: url(../images/imagen_3.jpg);
+}
+
+.ofertas {
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  width: 45%;
+  border-radius: 20px;
+  backdrop-filter: blur(30px);
+  box-shadow: 0px 0px 30px #fff;
+}
+
+.ofertas p {
+  font-size: 20px;
+  margin: 0;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+  text-align: center;
+  font-family: cursive;
+}
+
+.sub_ofertas {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.descripcion {
+  margin: 10px;
+  text-align: left;
+  padding: 3px;
+}
+
+.descripcion strong {
+  text-shadow: 2px 2px 2px #fff;
+  font-size: 16px;
+  font-family: cursive;
+}
+
+.ademas {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.ademas strong {
+  text-shadow: 2px 2px 2px #fff;
+  font-size: 16px;
+  font-family: cursive;
+}
+
+.ofertas-gastronomicas {
+  width: 45%;
+  margin-left: 10%;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 10px;
+  backdrop-filter: blur(30px);
+  box-shadow: 0px 0px 30px #fff;
+}
+
+.ofertas-gastronomicas p {
+  font-size: 20px;
+  margin: 0;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+  text-align: center;
+  font-family: cursive;
+}
+
+.gastronomia {
+  display: flex;
+  flex-direction: column;
+}
+
+.gastronomia strong {
+  text-shadow: 2px 2px 2px #fff;
+  font-size: 16px;
+  font-family: cursive;
+}
