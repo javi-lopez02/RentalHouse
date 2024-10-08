@@ -52,19 +52,8 @@
   font-family: cursive;
 }
 
+/* INFORMACION ADICIONAL */
 .ademas {
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-}
-
-.ademas strong {
-  text-shadow: 2px 2px 2px #fff;
-  font-size: 16px;
-  font-family: cursive;
-}
-
-.ofertas-gastronomicas {
   width: 45%;
   margin-left: 10%;
   border: 1px solid #fff;
@@ -72,9 +61,11 @@
   padding: 10px;
   backdrop-filter: blur(30px);
   box-shadow: 0px 0px 30px #fff;
+  display: flex;
+  flex-direction: column;
 }
 
-.ofertas-gastronomicas p {
+.ademas p {
   font-size: 20px;
   margin: 0;
   color: #fff;
@@ -83,12 +74,13 @@
   font-family: cursive;
 }
 
-.gastronomia {
+.otras {
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
 }
 
-.gastronomia strong {
+.ademas .otras strong {
   text-shadow: 2px 2px 2px #fff;
   font-size: 16px;
   font-family: cursive;
