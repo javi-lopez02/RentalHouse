@@ -1,23 +1,21 @@
-.main-banner .item {
+.main-banner {
   display: flex;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 10% 5%;
-  margin-top: 0px;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.main-banner .item-1 {
-  background-image: url(../images/imagen_3.jpg);
+.item {
+  filter: drop-shadow(10px 10px 10px #3d3c3c);
 }
 
 .ofertas-gastronomicas {
   width: 45%;
+  height: 400px;
   border: 1px solid #fff;
   border-radius: 20px;
   padding: 10px;
   backdrop-filter: blur(30px);
-  box-shadow: 0px 0px 30px #fff;
+  box-shadow: 0px 0px 30px #3d3c3c;
 }
 
 .ofertas-gastronomicas p {
