@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .item {
@@ -9,13 +10,14 @@
 }
 
 .ofertas-gastronomicas {
-  width: 45%;
-  height: 400px;
+  width: 100%;
+  height: auto;
   border: 1px solid #fff;
   border-radius: 20px;
   padding: 10px;
   backdrop-filter: blur(30px);
   box-shadow: 0px 0px 30px #3d3c3c;
+  margin-bottom: 20px;
 }
 
 .ofertas-gastronomicas p {
@@ -36,4 +38,22 @@
   text-shadow: 2px 2px 2px #fff;
   font-size: 16px;
   font-family: cursive;
+}
+
+@media (min-width: 600px) {
+  .ofertas-gastronomicas {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  .ofertas-gastronomicas {
+    width: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+  .ofertas-gastronomicas {
+    width: 45%;
+  }
 }

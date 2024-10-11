@@ -39,3 +39,33 @@
   margin-bottom: 0px;
 }
 
+/* Media Queries para hacer el diseño responsive */
+@media (max-width: 768px) {
+  .main-banner .item {
+    padding: 150px 10% 250px 10%;
+  }
+
+  .main-banner .item h2 {
+    font-size: 48px;
+    line-height: 58px;
+    width: 70%;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-banner .item {
+    padding: 100px 5% 200px 5%;
+  }
+
+  .main-banner .item span.category {
+    font-size: 14px;
+    padding: 4px 10px;
+  }
+
+  .main-banner .item h2 {
+    font-size: 36px;
+    line-height: 46px;
+    width: 90%;
+  }
+}
+

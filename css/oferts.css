@@ -19,7 +19,7 @@
   align-items: center;
   text-align: center;
   padding: 10px;
-  width: 45%;
+  width: 100%;
   border-radius: 20px;
   backdrop-filter: blur(30px);
   box-shadow: 0px 0px 30px #fff;
@@ -38,6 +38,7 @@
   display: flex;
   justify-content: space-around;
   padding: 5px;
+  flex-wrap: wrap;
 }
 
 .descripcion {
@@ -54,8 +55,8 @@
 
 /* INFORMACION ADICIONAL */
 .ademas {
-  width: 45%;
-  margin-left: 10%;
+  width: 100%;
+  margin: 10px 0;
   border: 1px solid #fff;
   border-radius: 20px;
   padding: 10px;
@@ -84,4 +85,24 @@
   text-shadow: 2px 2px 2px #fff;
   font-size: 16px;
   font-family: cursive;
+}
+
+@media (min-width: 600px) {
+  .ofertas, .ademas {
+    width: 45%;
+  }
+
+  .ademas {
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 768px) {
+  .ofertas, .ademas {
+    width: 45%;
+  }
+
+  .ademas {
+    margin-left: 10%;
+  }
 }
