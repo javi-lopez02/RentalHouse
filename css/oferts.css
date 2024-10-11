@@ -26,12 +26,12 @@
 }
 
 .ofertas p {
-  font-size: 20px;
+  font-size: 30px;
   margin: 0;
   color: #fff;
   text-shadow: 2px 2px 2px #000;
   text-align: center;
-  font-family: cursive;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .sub_ofertas {
@@ -49,8 +49,8 @@
 
 .descripcion strong {
   text-shadow: 2px 2px 2px #fff;
-  font-size: 16px;
-  font-family: cursive;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /* INFORMACION ADICIONAL */
@@ -67,24 +67,24 @@
 }
 
 .ademas p {
-  font-size: 20px;
+  font-size: 30px;
   margin: 0;
   color: #fff;
   text-shadow: 2px 2px 2px #000;
   text-align: center;
-  font-family: cursive;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .otras {
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .ademas .otras strong {
   text-shadow: 2px 2px 2px #fff;
-  font-size: 16px;
-  font-family: cursive;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 @media (min-width: 600px) {

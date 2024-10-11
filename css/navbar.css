@@ -32,12 +32,13 @@
 
 .container__div--strong {
   color: #002d41;
-  font-size: larger;
-  font-family: cursive;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .container__div--span {
   color: #002d41;
+  font-size: 20px;
 }
 
 .container__links {
@@ -56,10 +57,10 @@
 .container__links--ul li a {
   display: inline-block;
   text-decoration: none;
-  font-family: cursive;
+  font-family: 'Times New Roman', Times, serif;
   text-align: center;
   color: #002d41;
-  font-size: medium;
+  font-size: larger;
 }
 
 .container__links--ul li a:hover {
