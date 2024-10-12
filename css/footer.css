@@ -24,7 +24,7 @@
   display: inline-block;
   width: 30px;
   height: 30px;
-  background-color: #ffffff;
+  background-color: transparent;
   border-radius: 50%;
   text-align: center;
   line-height: 30px;
@@ -34,7 +34,20 @@
 }
 
 .sub-header ul.social-links li a:hover {
-  background-color: #f35525;
+  background-color: #0b29d6;
+}
+
+.sub-header ul.social-links li a.insta:hover {
+  background-color: #ffffff;
+}
+
+.sub-header ul.social-links li a.whats:hover {
+  background-color: #ffffff;
+}
+
+.sub-header ul.social-links li a img{
+  width: 30px;
+  height: 30px;
 }
 
 .sub-header ul.info li {
