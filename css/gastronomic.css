@@ -1,59 +1,89 @@
-.main-banner {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.item {
-  filter: drop-shadow(10px 10px 10px #3d3c3c);
-}
-
-.ofertas-gastronomicas {
-  width: 100%;
-  height: auto;
-  border: 1px solid #fff;
-  border-radius: 20px;
-  padding: 10px;
-  backdrop-filter: blur(30px);
-  box-shadow: 0px 0px 30px #3d3c3c;
-  margin-bottom: 20px;
-}
-
-.ofertas-gastronomicas p {
-  font-size: 30px;
-  margin: 0;
-  color: #fff;
-  text-shadow: 2px 2px 2px #000, 2px 2px 2px #000, 2px 2px 2px #000;
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.gastronomia {
+.contenedor {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  flex-wrap: wrap;
+  border: 1px solid #000;
+  background-image: url(../images/imagen_2.jpg);
+  background-size: cover;
 }
 
-.gastronomia strong {
-  text-shadow: 2px 2px 2px #fff;
-  font-size: 20px;
+.container__comidas,
+.container__picadera {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 5px;
+  width: 90%;
+  margin: 10px;
+  backdrop-filter: blur(20px);
+  box-shadow: 10px 10px #81959785;
+  flex-wrap: wrap; /* Para que las tarjetas se ajusten en pantallas pequeñas */
+}
+
+.container__comidas h1,
+.container__picadera h1{
+  color: #fff;
+  text-shadow: 2px 2px 2px#000;
+}
+
+.comidas, .picaderas{
+  display: flex;
+}
+
+.container__comidas .comida_1,
+.container__comidas .comida_2,
+.container__comidas .comida_3,
+.container__comidas .comida_4,
+.container__comidas .comida_5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: start;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 20px;
+  width: 20%;
+  height: 300px;
+  margin: 5px;
+  background: linear-gradient(#fff, #000);
+  opacity: .9;
+  box-shadow: 5px 5px 5px #ffffffc4;
+}
+
+.container__comidas img, .container__picadera img{
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.container__picadera strong,
+.container__comidas strong{
   font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000, 2px 2px 2px #000;
 }
 
-@media (min-width: 600px) {
-  .ofertas-gastronomicas {
-    width: 80%;
-  }
-}
-
-@media (min-width: 768px) {
-  .ofertas-gastronomicas {
-    width: 60%;
-  }
-}
-
-@media (min-width: 992px) {
-  .ofertas-gastronomicas {
-    width: 45%;
-  }
+.container__picadera .picadera_1,
+.container__picadera .picadera_2,
+.container__picadera .picadera_3,
+.container__picadera .picadera_4,
+.container__picadera .picadera_5 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 20px;
+  width: 20%;
+  height: 230px;
+  margin: 5px;
+  opacity: .9;
+  background: linear-gradient(#ffffff, #000000);
+  box-shadow: 5px 5px 5px #ffffffc4;
 }
