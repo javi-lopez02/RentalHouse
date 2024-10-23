@@ -27,12 +27,13 @@
 }
 
 .container__comidas h1,
-.container__picadera h1{
+.container__picadera h1 {
   color: #fff;
   text-shadow: 2px 2px 2px#000;
 }
 
-.comidas, .picaderas{
+.comidas,
+.picaderas {
   display: flex;
 }
 
@@ -52,11 +53,12 @@
   height: 300px;
   margin: 5px;
   background: #fff;
-  opacity: .9;
+  opacity: 0.9;
   box-shadow: 5px 5px 5px #ffffffc4;
 }
 
-.container__comidas img, .container__picadera img{
+.container__comidas img,
+.container__picadera img {
   width: 100%;
   height: 150px;
   margin-bottom: 10px;
@@ -65,8 +67,8 @@
 }
 
 .container__picadera strong,
-.container__comidas strong{
-  font-family: 'Times New Roman', Times, serif;
+.container__comidas strong {
+  font-family: "Times New Roman", Times, serif;
   font-size: large;
   color: #000000;
   text-shadow: 2px 2px 2px #ffffff, 2px 2px 2px #ffffff;
@@ -85,7 +87,43 @@
   width: 20%;
   height: 230px;
   margin: 5px;
-  opacity: .9;
+  opacity: 0.9;
   background: #ffffff;
   box-shadow: 5px 5px 5px #ffffffc4;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 1200px) {
+  .container__comidas .comida_1,
+  .container__comidas .comida_2,
+  .container__comidas .comida_3,
+  .container__comidas .comida_4,
+  .container__comidas .comida_5,
+  .container__picadera .picadera_1,
+  .container__picadera .picadera_2,
+  .container__picadera .picadera_3,
+  .container__picadera .picadera_4,
+  .container__picadera .picadera_5 {
+    width: 45%; /* Ajuste del ancho para pantallas medianas */
+  }
+}
+
+@media (max-width: 768px) {
+  .container__comidas .comida_1,
+  .container__comidas .comida_2,
+  .container__comidas .comida_3,
+  .container__comidas .comida_4,
+  .container__comidas .comida_5,
+  .container__picadera .picadera_1,
+  .container__picadera .picadera_2,
+  .container__picadera .picadera_3,
+  .container__picadera .picadera_4,
+  .container__picadera .picadera_5 {
+    width: 100%; /* Ajuste del ancho para pantallas pequeñas */
+    height: auto; /* Ajuste de altura para pantallas pequeñas */
+  }
+  .comidas,
+  .picaderas {
+    flex-direction: column; /* Flexión en columna para pantallas pequeñas */
+  }
 }

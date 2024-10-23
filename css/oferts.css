@@ -40,7 +40,7 @@
 .card {
   border: 1px solid #000000;
   border-radius: 20px;
-  width: 20%;
+  width: 18%;
   height: 350px;
   margin-top: 20px;
   background-color: #fff;
@@ -53,6 +53,7 @@
   position: relative;
 }
 
+.card_0 { box-shadow: 5px 5px 5px 5px #915a12e1; }
 .card_1 { box-shadow: 5px 5px 5px 5px #913e3e80; }
 .card_2 { box-shadow: 5px 5px 5px 5px #42438083; }
 .card_3 { box-shadow: 5px 5px 5px 5px #3d884198; }
@@ -61,6 +62,7 @@
 .card_6 { box-shadow: 5px 5px 5px 5px #396e6686; }
 .card_7 { box-shadow: 5px 5px 5px 5px #41537c85; }
 .card_8 { box-shadow: 5px 5px 5px 5px #77744286; }
+.card_9 { box-shadow: 5px 5px 5px 5px #1f4117e1; }
 
 .card::before {
   content: "";
@@ -74,6 +76,7 @@
   transition: clip-path 0.5s ease-in-out, background 0.5s ease-in-out;
 }
 
+.card_0::before, .content .content__a_0 { background-color: #915a12e1; }
 .card_1::before, .content .content__a_1 { background-color: #911212e1; }
 .card_2::before, .content .content__a_2 { background-color: #090b77e1; }
 .card_3::before, .content .content__a_3 { background-color: #129118e1; }
@@ -82,7 +85,9 @@
 .card_6::before, .content .content__a_6 { background-color: #12917ce1; }
 .card_7::before, .content .content__a_7 { background-color: #123a91e1; }
 .card_8::before, .content .content__a_8 { background-color: #f1e648; }
+.card_9::before, .content .content__a_9 { background-color: #1f4117e1; }
 
+.card_0:hover::before { clip-path: circle(100%); background-color: #915a12e1; }
 .card_1:hover::before { clip-path: circle(100%); background-color: #911212e1; }
 .card_2:hover::before { clip-path: circle(100%); background-color: #090b77e1; }
 .card_3:hover::before { clip-path: circle(100%); background-color: #129118e1; }
@@ -91,6 +96,7 @@
 .card_6:hover::before { clip-path: circle(100%); background-color: #12917ce1; }
 .card_7:hover::before { clip-path: circle(100%); background-color: #123a91e1; }
 .card_8:hover::before { clip-path: circle(100%); background-color: #f1e648; }
+.card_9:hover::before { clip-path: circle(100%); background-color: #1f4117e1; }
 
 .card h1 {
   font-size: 25px;
