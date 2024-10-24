@@ -119,7 +119,7 @@
   .container__picadera .picadera_3,
   .container__picadera .picadera_4,
   .container__picadera .picadera_5 {
-    width: 100%; /* Ajuste del ancho para pantallas pequeñas */
+    width: 80%; /* Ajuste del ancho para pantallas pequeñas */
     height: auto; /* Ajuste de altura para pantallas pequeñas */
   }
   .comidas,
