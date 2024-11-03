@@ -44,7 +44,7 @@
 .container__comidas .comida_5 {
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  justify-content: space-between;
   align-items: start;
   border: 1px solid #000;
   border-radius: 20px;
@@ -81,15 +81,67 @@
 .container__picadera .picadera_5 {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
   border: 1px solid #000;
   border-radius: 20px;
   padding: 20px;
   width: 20%;
-  height: 230px;
+  height: 300px;
   margin: 5px;
+  background: #fff;
   opacity: 0.9;
-  background: #ffffff;
   box-shadow: 5px 5px 5px #ffffffc4;
+}
+
+.container__comidas .content__a_1 {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  background-color: #555151;
+  margin-top: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 40px;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.8s ease-in-out;
+  align-self: center;
+  text-shadow: 2px 2px 2px #000000, 2px 2px 2px #000000;
+}
+
+.container__comidas .content__a_1a,
+.container__comidas .content__a_1b,
+.container__comidas .content__a_1e {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  background-color: #555151;
+  bottom: -13px;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 40px;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.8s ease-in-out;
+  align-self: center;
+  text-shadow: 2px 2px 2px #000000, 2px 2px 2px #000000;
+}
+
+.container__picadera .content__a_1 {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  background-color: #555151;
+  margin-top: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 40px;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.8s ease-in-out;
+  align-self: center;
+  text-shadow: 2px 2px 2px #000000, 2px 2px 2px #000000;
 }
 
 /* Estilos Responsivos */

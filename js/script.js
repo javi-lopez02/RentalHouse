@@ -5,13 +5,6 @@ function sendToWhatsApp() {
   const telefono = document.getElementById("telefono").value;
   const descripcion = document.getElementById("descripcion").value;
 
-  const mensaje =
-    `Nombre: ${nombre}%0A` +
-    `Apellidos: ${apellidos}%0A` +
-    `Email: ${email}%0A` +
-    `Teléfono: ${telefono}%0A` +
-    `Descripción: ${descripcion}`;
-
   const numeroWhatsApp = "5363939196"; // Reemplaza con el número de WhatsApp al que deseas enviar el mensaje
   const url = `https://wa.me/${numeroWhatsApp}?text=${
     "Nombre: " +
@@ -20,7 +13,7 @@ function sendToWhatsApp() {
     "Apellidos: " +
     apellidos +
     "%0A" +
-    "Email: " +
+    "Fecha: " +
     email +
     "%0A" +
     "Telefono: " +
