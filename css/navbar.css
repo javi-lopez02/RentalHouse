@@ -14,7 +14,7 @@
 
 .container__logo {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -33,7 +33,7 @@
 .container__div--strong {
   color: #002d41;
   font-size: 25px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .container__div--span {
@@ -57,7 +57,7 @@
 .container__links--ul li a {
   display: inline-block;
   text-decoration: none;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   text-align: center;
   color: #002d41;
   font-size: larger;
@@ -93,5 +93,13 @@
 
   .container__links--ul li a {
     font-size: small;
+  }
+
+  .container__links--ul {
+    padding-left: 0px;
+  }
+
+  .container__logo {
+    width: 100%;
   }
 }

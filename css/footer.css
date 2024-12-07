@@ -17,7 +17,7 @@
 }
 
 .sub-header ul.social-links li {
-  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .sub-header ul.social-links li a {
@@ -114,5 +114,9 @@
 
   .sub-header ul.info li i {
     font-size: 18px;
+  }
+
+  .social-links{
+    padding-left: 0px;
   }
 }

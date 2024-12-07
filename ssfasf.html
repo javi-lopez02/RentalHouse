@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Bebidas y Meriendas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .menu {
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 60%;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .menu h1 {
+            text-align: center;
+            color: #333333;
+        }
+
+        .category {
+            margin-bottom: 20px;
+        }
+
+        .category h2 {
+            color: #007bff;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #f1f1f1;
+        }
+
+        .item:last-child {
+            border-bottom: none;
+        }
+
+        .item-name {
+            font-size: 16px;
+            color: #555555;
+        }
+
+        .item-price {
+            font-size: 16px;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <h1>Menú de Bebidas y Meriendas</h1>
+
+        <div class="category">
+            <h2>Bebidas</h2>
+            <div class="item">
+                <div class="item-name">Café</div>
+                <div class="item-price">$2.00</div>
+            </div>
+            <div class="item">
+                <div class="item-name">Té</div>
+                <div class="item-price">$1.50</div>
+            </div>
+            <div class="item">
+                <div class="item-name">Jugo de Naranja</div>
+                <div class="item-price">$3.00</div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Meriendas</h2>
+            <div class="item">
+                <div class="item-name">Croissant</div>
+                <div class="item-price">$2.50</div>
+            </div>
+            <div class="item">
+                <div class="item-name">Muffin</div>
+                <div class="item-price">$2.00</div>
+            </div>
+            <div class="item">
+                <div class="item-name">Sandwich</div>
+                <div class="item-price">$4.00</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

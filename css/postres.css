@@ -42,31 +42,12 @@
   border-radius: 20px;
   padding: 20px;
   width: 90%;
-  height: 380px;
+  height: 340px;
   margin: 5px;
   box-shadow: 5px 5px 5px #ffffffc4;
   box-sizing: border-box;
   overflow: hidden;
   position: relative;
-}
-
-.container__comidas img {
-  width: 100%;
-  margin-top: 10px;
-  height: 150px;
-  border-radius: 50%;
-  box-shadow: 2px 5px 2px #555151;
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  bottom: 10px;
-  z-index: 1;
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
 }
 
 .comida_1 {
@@ -131,6 +112,24 @@
   background-color: #1f4117e1;
 }
 
+.container__comidas img {
+  width: 100%;
+  margin-top: 10px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 2px 5px 2px #555151;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 10px;
+  z-index: 1;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
 
 .container__comidas strong {
   font-family: "Times New Roman", Times, serif;
@@ -162,5 +161,5 @@
 }
 
 .boton_buy:hover {
-  background-color: #2b2828;
+  background-color: #2e2e2e;
 }
